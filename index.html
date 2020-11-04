@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title> Rubins Cafe</title>
+        <link rel="stylesheet"type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+ 
+    </head>
+      <body> 
+
+        <div class="wrapper">
+            <div class="navbar">
+                <div class="logo">
+                    <h2> Rubins cafe</h2>
+                </div>
+                <nav>
+                    <ul class="menu animated slideInDown" id="check-class">
+                        <li><a href="#"> HOME</a></li>
+                        <li><a href="#"> CAKE N BAKE GALLERY</a></li>        
+                        <li><a href="#"> ABOUT US</a></li>
+                        <li><a href="#"> CONTACT US</a></li>
+                   </ul>
+                   <a href="#"class="mobile-icon" onclick="slideshow ()"><i class="fa fa-bars"></i></a>
+                </nav>
+            </div>
+
+            <div class="main-content-wrapper">
+               <h1> Welcome To <SPAN> RUBINS CAFE</SPAN> <br>
+                    house of fresh bake </h1><br><br>
+                <a href="#" class="btn"> click to order</a>
+               
+            </div>
+        </div>
+        <hr><hr>
+
+        <section class="gallery">
+            <div class="text">
+                <h2>CAKE N BAKE GALLERY</h2><br><br>
+                  <P> our bakery products are made of freshly availablae fruits and vegetables.<br>
+                      we prefer to use seasonal vegetables and fruits as it enhances flavors <br>
+                      as well as the authenticity of the food.<p>
+            </div>
+
+            <div class="container">
+                <div class="card card1">
+                    <h5> chocolate cake</h5>
+                </div>
+                <div class="card card2">
+                    <h5> cheese cake</h5>
+                </div>
+                <div class="card card3">
+                    <h5> pineapple cake</h5>
+                </div>
+                <div class="card card4">
+                    <h5> muffins</h5>
+                </div>
+                <div class="card card5">
+                    <h5>coffee cake</h5>
+                </div>
+                <div class="card card6">
+                    <h5> apple puff</h5>
+                </div>
+                <div class="card card7">
+                    <h5> chicken curry puff</h5>
+                </div>
+                <div class="card card8">
+                    <h5> muffins</h5>
+                </div>
+                <div class="card card9">
+                    <h5> loaf bread</h5>
+                </div>
+                <div class="card card10">
+                    <h5> banana bread</h5>
+                </div>
+            </div>
+       </section>
+
+       <section class="About-us">
+           <div class="text-1">
+              <h2> ABOUT US</h2>
+           </div>
+           <div class="container-A"> 
+            <div class="left">
+             <article> We are a group of ametuer bakers who are pursuing baking hobbies<br>
+                to serve the community of underprivileged  people .<br>
+                A substantial amount would go to the service of needy people.<br>
+                We truly believe in sharing and caring for our people , <br>
+                some of them may need a little more of kindness.</article>
+            </div>
+            <div class="image">
+                <label> sharing is caring </label>
+            </div>
+            </section>
+
+            <section class="contact-us">
+            <div>
+            <h2> CONTACT US</h2>
+             <p> you can connect with us through gmail and by a phone number</p> <br>
+             <p> please order one day prior </p>
+               <p> email: rubinscafe@gmail.com </p>
+               <p> phone number: 9876543094</p>
+            </div>
+        </section>
+           
+        <script type="text/javascript">
+                    
+        function slideshow(){
+            var x= document.getElementById("check-class");
+             if(x.style.display==="none")
+             {x.style.display="block";
+            }else{
+                x.style.display="none";
+            }
+        }
+        </script>
+         
+              
+
+         
+      </body>
+</html>
